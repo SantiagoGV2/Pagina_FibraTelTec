@@ -105,6 +105,11 @@ ul {
   color: #ffffff;
   transition: all 0.5s ease;
 }
+.derechos{
+  margin-top: 2%;
+  color: #ffffff;
+  text-align: center;
+}
 
 /*responsive*/
 @media (max-width: 767px) {
