@@ -2,19 +2,19 @@ let imagenes = [
     {
         "url": "../assets/img/internet.jpg",
         "nombre": "Internet",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilisfugit neque vel blanditiis quis praesentium quisquam ab teneturvero, laboriosam sint odit, illum rem, necessitatibusrepudiandae? At veritatis ea necessitatibus?"
+        "descripcion": "Manejamos las instalaciones de internet hogar a cada uno de los clientes que desean obtener este servicio de una forma amigable, respetuosa y organizada para la satisfacción del cliente."
 
     },
     {
         "url": "../assets/img/telefonia.jpg",
         "nombre": "Telefonia",
-        "descripcion": "Hola a todos este es el proyecto02 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "descripcion": "Manejamos las instalaciones de telefonia hogar a cada uno de los clientes que desean obtener este servicio de una forma amigable, respetuosa y organizada para la satisfacción del cliente."
 
     },
     {
         "url": "../assets/img/television.jpg",
         "nombre": "Television",
-        "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "descripcion": "Manejamos las instalaciones de televisión hogar a cada uno de los clientes que desean obtener este servicio de una forma amigable, respetuosa y organizada para la satisfacción del cliente."
 
     },
 ]
@@ -76,3 +76,4 @@ function openNav(){
 function closeNav(){
     document.getElementById("mobile-menu").style.width = "0%";
 }
+

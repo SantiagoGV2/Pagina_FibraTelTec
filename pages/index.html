@@ -1,256 +1,311 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../CSS/Styles.css " />
-    <title>FibraTelTec</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo">
-        <img src="/assets/img/logo.jpeg" alt="Logo de la marca" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../CSS/Styles.css " />
+  <link rel="icon" href="/assets/img/Logo.ico">
+  <title>FibraTelTec</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="/assets/img/logo.jpeg" alt="Logo de la marca" />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#principal">Sobre Nosotros</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#body_carrusel">Servicios</a></li>
+        <li><a href="politicas.html">Politicas</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#comunicacion"><button>Contacto</button></a>
+
+    <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+    <div id="mobile-menu" class="overlay">
+      <a onclick="closeNav()" href="" class="close">&times;</a>
+      <div class="overlay-content">
+        <a href="#principal">Sobre Nosotros</a>
+        <a href="#">Proyectos</a>
+        <a href="#body_carrusel">Servicios</a>
+        <a href="politicas.html">Politicas</a>
+        <a href="#comunicacion">Contacto</a>
       </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#body_carrusel">Services</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#principal">About Us</a></li>
-        </ul>
-      </nav>
-      <a class="btn" href="#comunicacion"><button>Contact</button></a>
+    </div>
+  </header>
 
-      <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
-
-      <div id="mobile-menu" class="overlay">
-        <a onclick="closeNav()" href="" class="close">&times;</a>
-        <div class="overlay-content">
-          <a href="#body_carrusel">Services</a>
-          <a href="#">Projects</a>
-          <a href="#principal">About Us</a>
-          <a href="#comunicacion">Contact</a>
-        </div>
-      </div>
-    </header>
-
-    <main id="main">
-      <div class="Contenerdor_img">
-        <section class="container_p" id="principal">
-          <h1 class="title">Bienvenido a FIBRATELTEC</h1>
-          <p class="Text">
-       
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Obcaecati nostrum distinctio facere repellat inventore ratione. A
-              natus unde, libero accusamus maiores temporibus, consequuntur
-              quibusdam quidem voluptate perspiciatis vitae quisquam
-              nostrum?
-            >
-          </p>
-        </section>
-        <section class="articles">
-          <article>
-            <div class="article-wrapper">
-              <figure>
-                <img src="../assets/img/imagen1.jpg" alt="" />
-              </figure>
-              <div class="article-body">
-                <h2>Progreso</h2>
-                <p>
-                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
-                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
-                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
-                  egestas.
-                </p>
-              </div>
-            </div>
-          </article>
-          <article>
-            <div class="article-wrapper">
-              <figure>
-                <img src="../assets/img/imagen2.jpg" alt="" />
-              </figure>
-              <div class="article-body">
-                <h2>Modelo de trabajo</h2>
-                <p>
-                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
-                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
-                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
-                  egestas.
-                </p>
-              </div>
-            </div>
-          </article>
-          <article>
-            <div class="article-wrapper">
-              <figure>
-                <img src="../assets/img/contratista.jpg" alt="" />
-              </figure>
-              <div class="article-body">
-                <h2>Contratistas</h2>
-                <p>
-                  Instalacion y mantenimiento en redes de telecomunicaciones
-                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
-                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
-                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
-                  egestas.
-                </p>
-              </div>
-            </div>
-          </article>
-        </section>
-      </div>
-      <hr />
-      <section class="article">
-        <article class="container_p2">
-          <div class="article-wrapper">
-            <div class="article-body">
-              <section id="principal">
-                <h1>MISIÓN</h1>
-
-                <p class="offert">
-                  En Fibra Telecomunicaciones y Tecnología Ingeniería SAS,
-                  nuestra misión es proporcionar soluciones integrales en el
-                  sector de las telecomunicaciones y la tecnología, con un
-                  enfoque en la innovación, la calidad y la satisfacción del
-                  cliente. Nos comprometemos a ofrecer servicios y productos de
-                  vanguardia que impulsen la conectividad, la eficiencia y la
-                  productividad de nuestros clientes, contribuyendo así al
-                  desarrollo económico y social de Colombia y la región.
-                </p>
-              </section>
-            </div>
-          </div>
-        </article>
-        <article class="container_p3">
-          <div class="article-wrapper">
-            <div class="article-body">
-              <section id="principal">
-                <h1>VISIÓN</h1>
-
-                <p class="offert">
-                  Nuestra visión es en 2030 ser reconocidos como líderes en el
-                  mercado de las telecomunicaciones y la tecnología,
-                  distinguiéndonos por nuestra excelencia operativa, nuestra
-                  capacidad de adaptación a los cambios del mercado y nuestra
-                  innovación constante. Nos proyectamos como una empresa sólida
-                  y confiable, con una presencia nacional e internacional
-                  significativa, que se destaque por su compromiso con la
-                  calidad, la ética empresarial y el desarrollo sostenible.
-                </p>
-              </section>
-            </div>
-          </div>
-        </article>
+  <main id="main">
+    <div class="Contenerdor_img">
+      <section class="container_p" id="principal">
+        <h1 class="title">Bienvenido a FIBRATELTEC S.A.S</h1>
+        <p class="Text">
+          Somos una empresa de telecomunicaciones con experiencia de dos años
+          con una amplia operación en el mercado de la instalación y mantenimiento en redes de
+          telecomunicaciones (larga distancia, urbanas, locales, celulares y banda ancha).
+        </p>
       </section>
-      <hr />
-      <section class="body_carrusel" id="body_carrusel">
-        <h2 class="subtitle_s">Servicios</h2>
-        <div class="carrusel">
-          <div class="imagenes">
-            <div id="img">
-              <img
-                class="img"
-                src="../assets/img/internet.jpg"
-                alt="imagen 1"
-                loading="lazy"
-              />
-            </div>
-
-            <div id="texto" class="texto">
-              <h3>Internet</h3>
+      <section class="articles">
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="../assets/img/imagen1.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Progreso</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                fugit neque vel blanditiis quis praesentium quisquam ab tenetur
-                vero, laboriosam sint odit, illum rem, necessitatibus
-                repudiandae? At veritatis ea necessitatibus?
+                Nos encontramos en un progreso ampliamente estable y con
+                objetivos claros, teniendo en cuenta cada aspecto del
+                desarrollo y ambiente laboral, ya sea interno o externo
+                (administrativo, operativo, servicio), como tambien nos encontramos en la la búsqueda de una relación de
+                largo plazo con nuestros clientes, teniendo en cuenta sus necesidades.
               </p>
             </div>
           </div>
-        </div>
-        <div class="flechas">
-          <div class="atras">
-            <img
-              id="atras"
-              src="../assets/img/atras.svg"
-              alt="atras"
-              loading="lazy"
-            />
+        </article>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="../assets/img/imagen2.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Modelo de trabajo</h2>
+              <p>
+                El modelo que manejamos en la compañia esta dividido en dos
+                actividades, administrativo y operativo, en donde en cada
+                ambiente laboral se cumplen de forma correcta las reglas y
+                normas establecidad por la compañia para el debido proceso y
+                gestion de las tareas a realizar.
+              </p>
+            </div>
           </div>
-          <div class="adelante" id="adelante">
-            <img
-              src="../assets/img/adelante.svg"
-              alt="adelante"
-              loading="lazy"
-            />
+        </article>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="../assets/img/contratista.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Contratistas</h2>
+              <p>
+                La compañia cuenta con el apoyo y gestion de las contratistas
+                <strong>Sicte</strong> y con
+                <strong>Opegin</strong> para el
+                debido proceso y sostenimiento de la compañia.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="puntos" id="puntos"></div>
+        </article>
       </section>
-      <hr />
-      <section class="comunicacion" id="comunicacion">
-        <h2 class="subtitle_c">Comunicate con nosotros</h2>
-        <h3 class="Text">O, aún mejor, ¡ven a visitarnos!</h3>
-        <h4 class="Text">
-          Nos encanta recibir a nuestros clientes, así que ven en cualquier
-          momento durante las horas de oficina.
-        </h4>
-        <div class="container_button">
-          <a href=""
-            ><button class="button_lp">
-              <i class="fa-brands fa-whatsapp"></i> Contactanos
-            </button></a
-          >
+    </div>
+    <hr />
+    <section class="article">
+      <article class="container_p2">
+        <div class="article-wrapper">
+          <div class="article-body">
+            <section id="principal">
+              <h1>MISIÓN</h1>
+
+              <p class="offert">
+                En Fibra Telecomunicaciones y Tecnología Ingeniería SAS,
+                nuestra misión es proporcionar soluciones integrales en el
+                sector de las telecomunicaciones y la tecnología, con un
+                enfoque en la innovación, la calidad y la satisfacción del
+                cliente. Nos comprometemos a ofrecer servicios y productos de
+                vanguardia que impulsen la conectividad, la eficiencia y la
+                productividad de nuestros clientes, contribuyendo así al
+                desarrollo económico y social de Colombia y la región.
+              </p>
+            </section>
+          </div>
         </div>
-        <h4 class="Text">Horario de atención</h4>
-        <div class="horarios">
-          <ul class="list_horarios">
-            <li>Lunes: 8:00 A.M a 5:00 P.M</li>
-            <li>Martes: 8:00 A.M a 5:00 P.M</li>
-            <li>Miercoles 8:00 A.M a 5:00 P.M</li>
-            <li>Jueves: 8:00 A.M a 5:00 P.M</li>
-            <li>Viernes: 8:00 A.M a 5:00 P.M</li>
-            <li>Sabado:8:00 A.M a 5:00 P.M</li>
-            <li>Domingo: Cerrado</li>
+      </article>
+      <article class="container_p3">
+        <div class="article-wrapper">
+          <div class="article-body">
+            <section id="principal">
+              <h1>VISIÓN</h1>
+
+              <p class="offert">
+                Nuestra visión es en 2030 ser reconocidos como líderes en el
+                mercado de las telecomunicaciones y la tecnología,
+                distinguiéndonos por nuestra excelencia operativa, nuestra
+                capacidad de adaptación a los cambios del mercado y nuestra
+                innovación constante. Nos proyectamos como una empresa sólida
+                y confiable, con una presencia nacional e internacional
+                significativa, que se destaque por su compromiso con la
+                calidad, la ética empresarial y el desarrollo sostenible.
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="article">
+      <article class="container_p2">
+        <div class="article-wrapper">
+          <div class="article-body">
+            <section id="principal">
+              <h1>OBJETIVOS ESTRATÉGICOS</h1>
+
+              <p class="offert">
+                1. Innovación Tecnológica: Desarrollar y ofrecer constantemente soluciones tecnológicas de vanguardia
+                que satisfagan las necesidades cambiantes del mercado y superen las expectativas de nuestros clientes.
+              </p>
+              <p class="offert">
+                2. Excelencia Operativa: Mejorar continuamente nuestros procesos internos para garantizar la eficiencia,
+                la calidad y la rentabilidad en todas nuestras operaciones y servicios.
+              </p>
+              <p class="offert">
+                3. Expansión Geográfica: Expandir nuestra presencia en Colombia y explorar oportunidades de crecimiento
+                en mercados internacionales estratégicos, consolidando nuestra posición como líderes regionales en
+                telecomunicaciones y tecnología.
+              </p>
+              <p class="offert">
+                4. Desarrollo del Talento Humano: Invertir en el desarrollo profesional y personal de nuestro equipo
+                humano, fomentando un ambiente de trabajo colaborativo, inclusivo y orientado a resultados.
+              </p>
+              <p class="offert">
+                5. Responsabilidad Social y Ambiental: Integrar prácticas empresariales social y ambientalmente
+                responsables en todas nuestras operaciones, contribuyendo al bienestar de las comunidades en las que
+                operamos y al cuidado del medio ambiente.
+              </p>
+              <p class="offert">
+                Estos objetivos estratégicos reflejan nuestro compromiso con el crecimiento sostenible, la innovación y
+                la excelencia en Fibra Telecomunicaciones y Tecnología Ingeniería SAS, sentando las bases para un futuro
+                próspero y exitoso en el sector de las telecomunicaciones y la tecnología.
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+      <article class="container_p3">
+        <div class="article-wrapper">
+          <div class="article-body">
+            <section id="principal">
+              <h1>VALORES</h1>
+
+              <p class="offert">
+                Nuestra visión es en 2030 ser reconocidos como líderes en el
+                mercado de las telecomunicaciones y la tecnología,
+                distinguiéndonos por nuestra excelencia operativa, nuestra
+                capacidad de adaptación a los cambios del mercado y nuestra
+                innovación constante. Nos proyectamos como una empresa sólida
+                y confiable, con una presencia nacional e internacional
+                significativa, que se destaque por su compromiso con la
+                calidad, la ética empresarial y el desarrollo sostenible.
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+    <hr />
+    <section class="body_carrusel" id="body_carrusel">
+      <h2 class="subtitle_s">Servicios</h2>
+      <div class="carrusel">
+        <div class="imagenes">
+          <div id="img">
+            <img class="img" src="../assets/img/internet.jpg" alt="imagen 1" loading="lazy" />
+          </div>
+
+          <div id="texto" class="texto">
+            <h3>Internet</h3>
+            <p>
+              Manejamos las instalaciones de internet hogar a
+              cada uno de los clientes que desean obtener este servicio de una
+              forma amigable, respetuosa y organizada para la satisfacción del
+              cliente.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flechas">
+        <div class="atras">
+          <img id="atras" src="../assets/img/atras.svg" alt="atras" loading="lazy" />
+        </div>
+        <div class="adelante" id="adelante">
+          <img src="../assets/img/adelante.svg" alt="adelante" loading="lazy" />
+        </div>
+      </div>
+      <div class="puntos" id="puntos"></div>
+    </section>
+    <hr />
+    <section class="comunicacion" id="comunicacion">
+      <h2 class="subtitle_c">Comunicate con nosotros</h2>
+      <h3 class="Text">O, aún mejor, ¡ven a visitarnos!</h3>
+      <h4 class="Text">
+        Nos encanta recibir a nuestros clientes, así que ven en cualquier
+        momento durante las horas de oficina.
+      </h4>
+      <div class="container_button">
+        <a href=""><button class="button_lp">
+            <i class="fa-brands fa-whatsapp"></i> Contactanos
+          </button></a>
+      </div>
+      <h4 class="Text">Horario de atención</h4>
+      <div class="horarios">
+        <ul class="list_horarios">
+          <li>Lunes: 8:00 A.M a 5:00 P.M</li>
+          <li>Martes: 8:00 A.M a 5:00 P.M</li>
+          <li>Miercoles 8:00 A.M a 5:00 P.M</li>
+          <li>Jueves: 8:00 A.M a 5:00 P.M</li>
+          <li>Viernes: 8:00 A.M a 5:00 P.M</li>
+          <li>Sabado:8:00 A.M a 5:00 P.M</li>
+          <li>Domingo: Cerrado</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Compañia</h4>
+          <ul>
+            <li><a href="#principal">Sobre Nosotros</a></li>
+            <li><a href="#body_carrusel">Nuestros servicios</a></li>
+            <li><a href="#comunicacion">Contactanos</a></li>
           </ul>
         </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-       <div class="row">
-         <div class="footer-col">
-           <h4>company</h4>
-           <ul>
-             <li><a href="#principal">about us</a></li>
-             <li><a href="#body_carrusel">our services</a></li>
-             <li><a href="#comunicacion">communication</a></li>
-           </ul>
-         </div>
-       
-         <div class="footer-col">
-           <h4>online shop</h4>
-           <ul>
-             <li><a href="#">watch</a></li>
-             <li><a href="#">bag</a></li>
-             <li><a href="#">shoes</a></li>
-             <li><a href="#">dress</a></li>
-           </ul>
-         </div>
-         <div class="footer-col">
-           <h4>follow us</h4>
-           <div class="social-links">
-             <a href="#"><i class="fa-brands fa-facebook"></i></a>
-             <a href="#"><i class="fab fa-twitter"></i></a>
-             <a href="#"><i class="fab fa-instagram"></i></a>
-             <a href="#"><i class="fab fa-linkedin-in"></i></a>
-           </div>
-         </div>
-       </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Otras Compañias</h4>
+          <ul class="cont_img">
+            <li>
+              <a href="#"><img src="/assets/img/sicte-removebg-preview.png" alt="sicte" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/assets/img/opegin-removebg-preview.png" alt="opegin" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
       </div>
-   </footer>
-   <script src="https://kit.fontawesome.com/1acde824b3.js" crossorigin="anonymous"></script>
-    <script src="../js/app.js"></script>
-    
-  </body>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/1acde824b3.js" crossorigin="anonymous"></script>
+  <script src="../js/app.js"></script>
+</body>
+
 </html>
