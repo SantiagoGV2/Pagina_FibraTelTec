@@ -11,7 +11,9 @@ body {
   top: 0;
   font-family: Helvetica, Verdana, sans-serif;
 }
-
+.body_tipos{
+  background-color: rgba(33, 49, 63, 0.95);
+}
 .container {
   max-width: 1170px;
   margin: auto;
@@ -543,6 +545,11 @@ article img {
   width: 600px;
   height: 100px;
   transition: 1s;
+}
+.adelante, .atras:hover{
+  cursor: pointer;
+  margin: 1px 1px 1px 1px;
+ background-color: rgba(63, 106, 138, 0.21);
 }
 
 @media screen and (max-width: 670px) {
