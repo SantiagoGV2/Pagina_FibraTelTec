@@ -5,41 +5,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/Styles.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
     <link rel="icon" href="/assets/img/Logo.ico">
     <title>Politicas</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="logo">
-            <a href="index.html"><img src="/assets/img/logo.jpeg" alt="Logo de la marca" /></a>
-        </div>
         <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Sobre Nosotros</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="index.html">Servicios</a></li>
-                <li><a href="tipo_trabajo.html">Tipos de Trabajo</a></li>
-            </ul>
-        </nav>
-        <a class="btn" href="index.html"><button>Contacto</button></a>
-
-        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
-
-        <div id="mobile-menu" class="overlay">
-            <a onclick="closeNav()" href="" class="close">&times;</a>
-            <div class="overlay-content">
-                <a href="index.html">Sobre Nosotros</a>
-                <a href="#">Proyectos</a>
-                <a href="index.html">Servicios</a>
-                <a href="tipo_trabajo.html">Tipos de Trabajo</a>
-                <a href="index.html">Contacto</a>
+            <div class="wrapper">
+              <div class="logo">
+                <a href="/pages/index.html"><img src="/assets/img/logo.jpeg" alt="logo"></a>
+              </div>
+              <input type="radio" name="slider" id="menu-btn">
+              <input type="radio" name="slider" id="close-btn">
+              <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li>
+                  <a href="index.html" class="desktop-item">Sobre Nosotros</a>
+                  <input type="checkbox" id="showDrop">
+                  <label for="showDrop" class="mobile-item">Sobre Nosotros</label>
+                  <ul class="drop-menu">
+                    <li><a href="index.html">Información</a></li>
+                    <li><a href="index.html">Misión y Visión</a></li>
+                    <li><a href="index.html">Objetivos y Valores</a></li>
+                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="index.html">Contacto</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="tienda.html" class="desktop-item">Tienda</a>
+                  <input type="checkbox" id="showMega">
+                  <label for="showMega" class="mobile-item">Tienda</label>
+                  <div class="mega-box">
+                    <div class="content">
+                      <div class="row">
+                        <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt="">
+                      </div>
+                      <div class="row">
+                        <header>Equipos Fibra Óptica</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Impalmadoras</a></li>
+                          <li><a href="#">Power mitter</a></li>
+                          <li><a href="#">Provadores de luz</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Herramientas Fibra Óptica</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Stripp</a></li>
+                          <li><a href="#">Cortadoras</a></li>
+                          <li><a href="#">Kit Completo</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="politicas.html">Politicas</a></li>
+                <li><a href="tipo_trabajo.html">Tipos de trabajo</a></li>
+              </ul>
+              <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
             </div>
-        </div>
-    </header>
+          </nav>
+        </header>
     <main>
         <div class="container2">
             <div class="sidebar">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <ul>
                     <li onclick="showContent(1)">Prevención de no Consumo de Bebidas Alcohólicas, Tabaquismo y
                         Sustancias Psicoactivas</li>
@@ -51,6 +87,11 @@
             </div>
 
             <div class="content" id="content">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <h2>
                     POLÍTICA DE PREVENCIÓN DE NO CONSUMO DE BEBIDAS ALCOHÓLICAS,
                     TABAQUISMO Y SUSTANCIAS PSICOACTIVAS
@@ -143,7 +184,7 @@
                         <li><a href="politicas.html">Politicas</a></li>
                         <li><a href="tipo_trabajo.html">Tipos de trabajo</a></li>
                         <li><a href="index.html">Contactanos</a></li>
-                      </ul>
+                    </ul>
                 </div>
                 <div class="footer-col">
                     <h4>online shop</h4>
@@ -158,10 +199,12 @@
                     <h4>Otras Compañias</h4>
                     <ul class="cont_img">
                         <li>
-                            <a href="https://sicte.com/"><img src="/assets/img/sicte-removebg-preview.png" alt="sicte" /></a>
+                            <a href="https://sicte.com/"><img src="/assets/img/sicte-removebg-preview.png"
+                                    alt="sicte" /></a>
                         </li>
                         <li>
-                            <a href="http://opegin.com/"><img src="/assets/img/opegin-removebg-preview.png" alt="opegin" /></a>
+                            <a href="http://opegin.com/"><img src="/assets/img/opegin-removebg-preview.png"
+                                    alt="opegin" /></a>
                         </li>
                     </ul>
                 </div>
